@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Page</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-body w-full">
+
+    <div id="hamburgerBar" class="absolute  w-[80%] h-screen bg-white top-0 opacity-0 z-0 left-[-100%] duration-500">
+        <div class="h-[60px]  bg-slate-100 flex px-8 justify-between items-center text-[14px]">
+            <div class="flex items-center gap-2 cursor-pointer">
+                <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover" stroke="bold" state="hover-jump"
+                    colors="primary:#000000,secondary:#000000" style="width:30px;height:30px">
+                </lord-icon>
+                <p>Hello, Sign in</p>
+            </div>
+
+            <img id="cross" class="h-4 w-4 cursor-pointer" src="svgs/close-icon.png" alt="">
+        </div>
+
+        <div class="overflow-y-auto overscroll-contain h-[90dvh]">
+            <div class="">
+                <ul class="flex flex-col py-6 text-gray-700 text-[14px]">
+
+                    <a href="wishlist.html"
+                        class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium">
+                        <lord-icon class="hover:text-black" src="https://cdn.lordicon.com/xyboiuok.json" trigger="morph"
+                            state="morph-heart" colors="primary:#000000" style="width:25px;height:25px">
+                        </lord-icon>
+                        <p>Wishlist</p>
+                    </a>
+
+                    <a href="compare.html"
+                        class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium">
+                        <lord-icon src="https://cdn.lordicon.com/swcqkzdc.json" trigger="hover" colors="primary:#000000"
+                            style="width:25px;height:25px">
+                        </lord-icon>
+                        <p>Compare</p>
+                    </a>
+
+                    <a href="#" class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium">
+                        <lord-icon src="https://cdn.lordicon.com/surcxhka.json" trigger="hover" stroke="bold"
+                            colors="primary:#000000,secondary:#000000" style="width:25px;height:25px">
+                        </lord-icon>
+                        <p>Track Order</p>
+                    </a>
+
+                    <a href="#" class="flex gap-6 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium">
+                        <lord-icon src="https://cdn.lordicon.com/axteoudt.json" trigger="hover" colors="primary:#000000"
+                            style="width:20px;height:20px">
+                        </lord-icon>
+                        <p>Help Center</p>
+                    </a>
+
+                </ul>
+            </div>
+
+            <hr class="w-[80%] mx-auto my-3">
+
+            <div class="px-8 py-3 flex gap-5 flex-col">
+                <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                    <h1>Home</h1>
+                    <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                </div>
+
+                <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                    <h1>Blog</h1>
+                    <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                </div>
+            </div>
+
+            <hr class="w-[80%] mx-auto my-3">
+
+            <div class="px-8">
+                <div class="flex justify-between text-[14px] py-3">
+                    <h1 class="text-gray-600">Shop by Category</h1>
+                    <a class="text-[#20624c] underline" href="categories.html">See All</a>
+                </div>
+
+                <div class="flex flex-col gap-5 text-[14px] py-3">
+
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Deals</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Electronic</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Home & Garden</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Fashion</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Jewelry</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Beauty & Makeup</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Toys & Games</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+                    <div class="flex w-full justify-between items-center text-gray-700 cursor-pointer">
+                        <div class="flex gap-3">
+                            <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop" stroke="bold"
+                                state="loop-rotate" colors="primary:#000000,secondary:#000000"
+                                style="width:23px;height:23px">
+                            </lord-icon>
+                            <a href="categories.html">Shoes</a>
+                        </div>
+                        <img class="h-3 w-3 " src="svgs/right-arrow-hero-svg.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- top line -->
+    <div class="w-full h-11 bg-cover md:text-[14px] text-[#4d3f2f] hidden md:flex items-center justify-center gap-8"
+        style="background-image: url(images/productPage/img/campain-bar.jpg);">
+        <p class="font-bold text-[14px]">Limited Time Only: Up to 60% off Dining Furniture</p>
+        <a href="categories.html" class="hidden md:block border-b border-[#4d3f2f] leading-[18px]">Shop Now</a>
+    </div>
+
+    <!-- cart sidebar -->
+    <div id="cartSidebar"
+        class="hidden fixed flex-col gap-3 w-full md:w-[480px] h-screen bg-white top-0 right-[-100%] -z-10 opacity-0 shadow-md duration-500">
+        <!-- cart heading -->
+        <div class="flex p-5 justify-between items-center">
+            <h1 class="text-[18px] font-medium">Shopping Cart (1)</h1>
+
+            <img id="cartCross" class="h-6 w-6 cursor-pointer" src="svgs/cart-cross-svg.svg" alt="">
+        </div>
+
+        <!-- cart products -->
+        <div class="flex flex-col w-full h-full p-5 gap-5 overflow-y-auto">
+
+            <div class="flex gap-5 h-fit w-full">
+                <img class="w-[30%] h-fit pr-7" src="images/productImg/product-img.jpg" alt="">
+
+                <div class="w-[70%] flex flex-col gap-2">
+                    <p class="text-[14px] text-gray-900 w-[80%]">Slate Series 33 Inch French Door
+                        Refrigerator Slate</p>
+                    <p class="text-[11px] text-gray-500 font-semibold">Vendor: <span
+                            class="font-medium text-gray-800">TehchiStore</span></p>
+                    <p class="font-medium">$1,899.00</p>
+
+                    <div class="flex justify-between items-center">
+
+                        <div class="duration-300 text-[14px] cursor-pointer w-fit my-4 rounded-sm">
+                            <div class="flex justify-between items-center gap-5">
+                                <div
+                                    class="ring-2 ring-gray-300 rounded-md hover:ring-black px-2 text-gray-500 font-bold hover:text-black duration-300 text-[16px] cursor-pointer w-fit">
+                                    -</div>
+                                <p>1</p>
+                                <div
+                                    class="ring-2 ring-gray-300 rounded-md hover:ring-black px-2 text-gray-500 font-bold hover:text-black duration-300 text-[16px] cursor-pointer w-fit">
+                                    +</div>
+                            </div>
+                        </div>
+
+                        <img class="w-5 h-5 cursor-pointer" src="svgs/cart-delete-svg.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="flex gap-5 h-fit w-full">
+                <img class="w-[30%] h-fit pr-7" src="images/productImg/product-img.jpg" alt="">
+
+                <div class="w-[70%] flex flex-col gap-2">
+                    <p class="text-[14px] text-gray-900 w-[80%]">Slate Series 33 Inch French Door
+                        Refrigerator Slate</p>
+                    <p class="text-[11px] text-gray-500 font-semibold">Vendor: <span
+                            class="font-medium text-gray-800">TehchiStore</span></p>
+                    <p class="font-medium">$1,899.00</p>
+
+                    <div class="flex justify-between items-center">
+
+                        <div class="duration-300 text-[14px] cursor-pointer w-fit my-4 rounded-sm">
+                            <div class="flex justify-between items-center gap-5">
+                                <div
+                                    class="ring-2 ring-gray-300 rounded-md hover:ring-black px-2 text-gray-500 font-bold hover:text-black duration-300 text-[16px] cursor-pointer w-fit">
+                                    -</div>
+                                <p>1</p>
+                                <div
+                                    class="ring-2 ring-gray-300 rounded-md hover:ring-black px-2 text-gray-500 font-bold hover:text-black duration-300 text-[16px] cursor-pointer w-fit">
+                                    +</div>
+                            </div>
+                        </div>
+
+                        <img class="w-5 h-5 cursor-pointer" src="svgs/cart-delete-svg.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- cart footer -->
+        <div class="w-full p-5 flex flex-col gap-3">
+            <section class="flex justify-between items-center">
+                <p class="text-[14px]">Subtotal (4 items)</p>
+                <p class="text-[14px]">$4,142.00</p>
+            </section>
+
+            <!-- btn -->
+            <section class="w-full flex flex-col gap-3 items-center">
+                <a class="w-full h-[60px] bg-[#0b5052] flex justify-center items-center text-white rounded-lg"
+                    href="checkout.html">Checkout</a>
+                <a class="h-[40px] text-[14px] mx-auto underline" href="cart.html">View cart</a>
+            </section>
+
+        </div>
+
+    </div>
+
+    <!-- sign in sidebar -->
+    <div id="singinSidebar" class=" flex fixed flex-col gap-3 w-full md:w-[480px] h-screen bg-white top-0 right-[-100%] -z-30 opacity-0 shadow-md duration-500">
+
+        <!-- signin heading -->
+        <div class="flex justify-between pt-5 px-5 ">
+
+            <div class="flex gap-5 items-center px-4 py-3">
+
+                <div class="bg-[#1d2128] p-[10px] rounded-full flex items-center justify-center">
+                    <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover" stroke="bold"
+                        colors="primary:#fff,secondary:#fff" style="width:25px;height:25px">
+                    </lord-icon>
+                </div>
+                <h1 class="text-[18px] font-semibold">Account</h1>
+
+            </div>
+
+            <img id="signinCross" class=" h-6 w-6 cursor-pointer" src="svgs/cart-cross-svg.svg" alt="">
+        </div>
+
+        <!-- signin content -->
+        <div class="w-full">
+            <ul class="flex flex-col text-gray-700 text-[14px]">
+
+                <a href="signup.html"
+                    class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover" stroke="bold"
+                        colors="primary:#000,secondary:#000" style="width:25px;height:25px">
+                    </lord-icon>
+                    <p>Sign In</p>
+                </a>
+
+                <a href="signup.html"
+                    class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover" stroke="bold"
+                        colors="primary:#000,secondary:#000" style="width:25px;height:25px">
+                    </lord-icon>
+                    <p>Creat Account</p>
+
+                </a>
+
+                <a href="wishlist.html"
+                    class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon class="hover:text-black" src="https://cdn.lordicon.com/xyboiuok.json" trigger="morph"
+                        state="morph-heart" colors="primary:#000000" style="width:25px;height:25px">
+                    </lord-icon>
+                    <p>Wishlist</p>
+                </a>
+
+                <a href="compare.html"
+                    class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon src="https://cdn.lordicon.com/swcqkzdc.json" trigger="hover" colors="primary:#000000"
+                        style="width:25px;height:25px">
+                    </lord-icon>
+                    <p>Compare</p>
+                </a>
+
+                <a href="#" class="flex gap-5 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon src="https://cdn.lordicon.com/surcxhka.json" trigger="hover" stroke="bold"
+                        colors="primary:#000000,secondary:#000000" style="width:25px;height:25px">
+                    </lord-icon>
+                    <p>Track Order</p>
+                </a>
+
+                <a href="#" class="flex gap-6 items-center hover:bg-slate-100 py-4 px-8 cursor-pointer font-medium duration-300">
+                    <lord-icon src="https://cdn.lordicon.com/axteoudt.json" trigger="hover" colors="primary:#000000"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    <p>Help Center</p>
+                </a>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+
+        <!-- menu line -->
+        <div class="hidden md:block menuLine h-10 w-full">
+            <div class="flex justify-between items-center h-full px-4 lg:px-14">
+                <div class="flex gap-7 text-gray-500 text-[12px] items-center h-full">
+                    <div class="flex gap-2 items-center">
+                        <lord-icon src="https://cdn.lordicon.com/trkmlure.json" trigger="hover" stroke="bold"
+                            colors="primary:#6b7280,secondary:#6b7280" style="width:15px;height:15px"></lord-icon>
+                        <p>English</p>
+                    </div>
+
+                    <div class=" flex gap-2 items-center">
+                        <lord-icon src="https://cdn.lordicon.com/kxockqqi.json" trigger="hover" stroke="bold"
+                            colors="primary:#6b7280,secondary:#6b7280" style="width:15px;height:15px">
+                        </lord-icon>
+                        <p>USD</p>
+                    </div>
+
+                </div>
+
+                <div class="flex gap-6 text-gray-500 text-[12px] items-center h-full">
+
+                    <a href="#" class="flex gap-1 items-center">
+                        <lord-icon src="https://cdn.lordicon.com/surcxhka.json" trigger="hover" stroke="bold"
+                            colors="primary:#6b7280,secondary:#6b7280" style="width:18px;height:18px">
+                        </lord-icon>
+                        Track Order
+                    </a>
+
+                    <a href="#" class="flex gap-1 items-center">
+                        <lord-icon src="https://cdn.lordicon.com/axteoudt.json" trigger="hover" colors="primary:#6b7280"
+                            style="width:15px;height:15px">
+                        </lord-icon>
+                        Help Center
+                    </a>
+
+                    <a href="#" class="flex gap-1 items-center">
+                        <lord-icon src="https://cdn.lordicon.com/swcqkzdc.json" trigger="hover" colors="primary:#6b7280"
+                            style="width:18px;height:18px">
+                        </lord-icon>
+                        <p>Compare</p>
+                    </a>
+
+                    <a href="#" class="flex gap-1 items-center">
+                        <lord-icon class="hover:text-black" src="https://cdn.lordicon.com/xyboiuok.json" trigger="morph"
+                            state="morph-heart" colors="primary:#6b7280" style="width:18px;height:18px">
+                        </lord-icon>
+                        <p>Wishlist</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- navbar Top -->
+        <div class="navbar flex flex-col h-fit md:h-fit w-full px-4 sticky top-0 lg:px-16 z-10 bg-white">
+
+            <div class="flex items-center justify-between h-fit md:h-[100px] md:py-5">
+
+                <div class="flex gap-5 items-center">
+
+                    <img id="hamburgerLines" class="block md:hidden h-[28px] w-[28px] cursor-pointer"
+                        src="svgs/hamburgerLine-Black-svg.svg" alt="Menu">
+
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="index.html"><img class="h-[65px] md:h-[200px]" src="images/logo.png"
+                                alt="Apna Cart"></a>
+                    </div>
+
+                </div>
+
+                <!-- search bar -->
+                <div class="search bar hidden md:block h-full">
+                    <div class="flex gap-3 sm:w-[70dvw] lg:w-[52dvw] items-center justify-between h-full">
+
+                        <div class="w-[92%] px-4 py-3 shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-full flex justify-between items-center rounded-[3px]"
+                            style="background-color: rgb(255, 255, 255);">
+
+                            <div class="flex justify-between items-center md:gap-4 w-full h-full">
+
+                                <input class="focus:outline-none w-[60%]"
+                                    style="font-size: 14px; color: #414141; margin-left: 10px; border: none;"
+                                    placeholder="Search for anything">
+
+                                <div class="divider h-[60%] w-[1px] bg-slate-100 ml-2 my-[2px]"></div>
+
+                                <!-- All categories -->
+                                <div id="allButton" class="relative focus:outline-none w-fit"
+                                    style="background-color: transparent; border: none;">
+
+                                    <div id="allSearchBtn" class="flex gap-2 w-fit">
+                                        <p class="text-[14px] font-medium cursor-pointer">All Categories</p>
+                                        <img class="w-5 h-5 cursor-pointer" src="svgs/down-arrow-svg.svg" alt="">
+                                    </div>
+
+                                    <div id="allDiv"
+                                        class="absolute w-[520px] flex-col bg-white top-[-16px] right-0 hidden shadow-lg">
+                                        <div class="flex justify-between items-center p-5">
+                                            <h1 class="text-[16px] text-black">Select Categories</h1>
+                                            <img id="allCross" class="w-3 h-3 cursor-pointer" src="svgs/close-icon.png"
+                                                alt="">
+                                        </div>
+                                        <hr>
+                                        <div class="flex justify-between p-5">
+                                            <div>
+                                                <div class="flex flex-col gap-3">
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Deals</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Electronic</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Home & Garden</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Fashion</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Jewelry</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Beauty & Makeup</a>
+
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <div class="flex flex-col gap-3">
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Toys & Games</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Shoes</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Sports</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Karshi davaya</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Solar system</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Electric motor pump</a>
+
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <div class="flex flex-col gap-3">
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">steel reling pillar 202&304</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">krishi yantra</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">mandir product</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit"
+                                                        href="#">Car accessories led bords</a>
+                                                    <a class="text-black text-[14px] font-medium animateLine w-fit border-b border-gray-500"
+                                                        href="#">All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button
+                            class="w-[60px] flex justify-center items-center h-full bg-[#3449ca] rounded-[3px] shadow-[0_2px_6px_0_rgba(52,73,202,.4)]"
+                            style="border: none; padding: 10px;">
+                            <!-- <span style="font-size: 20px; color: white;">&#x1F50D;</span> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="#fff">
+                                <path fill-rule="evenodd"
+                                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- sign in -->
+                <div class="flex items-center gap-5 h-full">
+
+                    <div id="signinIcon" class="flex gap-1 items-center text-[14px] text-gray-500 cursor-pointer">
+                        <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover" stroke="bold"
+                            colors="primary:#000000,secondary:#000000" style="width:25px;height:25px">
+                        </lord-icon>
+                        <p class="hidden md:block">Account</p>
+                    </div>
+
+                    <div id="cartIcon" class="flex gap-1 items-center text-[14px] text-gray-500 cursor-pointer">
+                        <div class="relative flex justify-start items-start">
+                            <lord-icon src="https://cdn.lordicon.com/odavpkmb.json" trigger="hover" stroke="bold"
+                                colors="primary:#000000,secondary:#000000" style="width:25px;height:25px">
+                            </lord-icon>
+                            <div
+                                class="absolute h-5 w-5 bg-red-500 rounded-full text-center text-white left-[10px] top-[-10px] -z-10 flex justify-center items-center">
+                                <span class="text-[12px]">0</span>
+                            </div>
+                        </div>
+                        <p class="hidden md:block">Cart</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- search bar -->
+            <div class="search bar md:hidden block h-full">
+                <div class="flex gap-2 sm:w-[70dvw] lg:w-[52dvw] items-center justify-between h-[48px]">
+
+                    <div class="w-[92%] px-4 py-3 shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-full flex justify-between items-center rounded-[3px]"
+                        style="background-color: rgb(255, 255, 255);">
+
+                        <div class="flex justify-between items-center md:gap-4 w-full h-full">
+
+                            <input class="focus:outline-none w-[60%]"
+                                style="font-size: 14px; color: #414141; margin-left: 10px; border: none;"
+                                placeholder="Search for anything">
+
+
+                        </div>
+
+                    </div>
+
+                    <button
+                        class="w-[60px] flex justify-center items-center h-full bg-[#3449ca] rounded-[3px] shadow-[0_2px_6px_0_rgba(52,73,202,.4)]"
+                        style="border: none; padding: 10px;">
+                        <!-- <span style="font-size: 20px; color: white;">&#x1F50D;</span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="#fff">
+                            <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- navbar Bottom -->
+        <div class="navbar hidden md:flex flex-col h-[65px] md:h-fit w-full px-4 lg:px-16">
+
+            <div class="flex items-center justify-between gap-0 h-[60px] w-full">
+
+                <div class="relative flex flex-col items-center w-[24%] h-full">
+                    <div
+                        class="flex gap-4 items-center border border-gray-300 px-5 cursor-pointer categoryHover w-full h-full">
+
+                        <img class="w-5 h-5" src="svgs/productSvgs/dots-9-svg.svg" alt="">
+                        <div class="text-[16px] text-gray-800">
+                            <p class="whitespace-nowrap">Shop by Category</p>
+
+                            <div class="categoryDropdown categoryHover hidden z-10">
+                                <div class=" absolute top-[60px] left-0 bg-white rounded-sm shadow-lg w-full ">
+
+                                    <div
+                                        class="flex flex-col gap-6 text-[14px] overflow-y-auto overscroll-contain p-5 pr-10 h-[60dvh] ">
+
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Deals</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Electronic</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Home & Garden</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Fashion</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Jewelry</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Beauty & Makeup</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Toys & Games</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            class="flex w-full justify-between items-center text-gray-500 cursor-pointer">
+                                            <div class="flex gap-3">
+                                                <lord-icon src="https://cdn.lordicon.com/zlbisnuz.json" trigger="loop"
+                                                    stroke="bold" state="loop-rotate"
+                                                    colors="primary:#000000,secondary:#000000"
+                                                    style="width:23px;height:23px">
+                                                </lord-icon>
+                                                <a href="categories.html">Shoes</a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="w-5 h-5 ml-5" src="svgs/productSvgs/down-chevron-svg.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="flex justify-between w-[76%] ml-12 text-gray-800">
+                    <div class="flex gap-11">
+                        <a href="index.html">Home</a>
+                        <a href="product.html">Shop</a>
+                        <a href="">Pages</a>
+                        <a href="blog.html">Blog</a>
+                    </div>
+
+                    <div>
+                        <a href="#">Shop Today’s Deals</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+
+        <main class="px-3 lg:px-16 mb-20">
+
+            <div class="flex flex-col gap-3 w-full md:w-[65%] mx-auto py-10">
+                <p class="text-[14px] font-semibold text-gray-500">Fashion</p>
+                <a href="blogDetails.html" class="font-bold text-[24px] md:text-[35px] md:leading-[45px] cursor-pointer">Robot Vacuums and Mops Keep Your Floors Sparkling Clean</a>
+                <p class="text-[12px] text-gray-600">November 3, 2018 <span class="pl-5">by Martin williams</span></p>
+
+            </div>
+            
+            <img class="md:h-screen mx-auto rounded-sm" src="images/blogImg/blogimg-1.webp" alt="">
+
+            <div class="flex flex-col gap-3 w-full md:w-[65%] mx-auto py-10">
+                <h1 class="text-[18px] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</h1>
+
+                <p class="text-[16px] text-gray-800">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <br> <br>
+                    
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+            </div>
+
+            <img class=" mx-auto rounded-sm w-full md:w-[65%]" src="images/blogImg/blogimg-1.webp" alt="">
+
+            <div class="flex flex-col gap-3 w-full md:w-[65%] mx-auto py-10">
+                <h1 class="text-[18px] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</h1>
+
+                <p class="text-[16px] text-gray-800">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <br> <br>
+                    
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+            </div>
+
+        </main>
+        <hr>
+
+        <!-- footer -->
+        <footer class="pb-16 md:pb-0">
+            <section class="flex flex-col md:flex-row w-[90%] md:w-full mx-auto">
+                <div class="w-full md:w-1/2 px-0 lg:px-20 py-10 flex items-center justify-start gap-5 md:gap-0">
+
+                    <div class="flex flex-col gap-3 w-1/2 lg:px-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                            <title>call-footer</title>
+                            <path
+                                d="M26.707 31.36c-0.267 0-0.52-0.013-0.787-0.067-4.253-0.667-8.253-2.213-11.867-4.587-3.507-2.307-6.453-5.253-8.76-8.76-2.373-3.613-3.92-7.613-4.587-11.867-0.227-1.453 0.187-2.92 1.133-4.040 0.933-1.093 2.28-1.707 3.72-1.707h4.467c2.347 0 4.373 1.693 4.813 4.013 0.107 0.533 0.227 1.040 0.387 1.547 0.547 1.813 0.080 3.733-1.187 5.013-1.107 1.107-1.213 2.773-0.293 3.92 1.013 1.267 2.16 2.427 3.427 3.427 1.147 0.92 2.813 0.813 3.867-0.24 1.333-1.333 3.253-1.787 5.067-1.24 0.507 0.147 1.027 0.28 1.547 0.373v0c2.32 0.453 4.013 2.48 4.013 4.827v4.467c0 1.427-0.627 2.787-1.707 3.72-0.907 0.787-2.067 1.2-3.253 1.2zM5.547 2.333c-0.853 0-1.64 0.36-2.2 1.013-0.573 0.667-0.813 1.547-0.68 2.427 0.627 3.973 2.067 7.707 4.28 11.080 2.147 3.28 4.907 6.027 8.187 8.187 3.387 2.213 7.107 3.667 11.080 4.28 0.88 0.147 1.76-0.107 2.427-0.68 0.653-0.56 1.013-1.333 1.013-2.2v-4.467c0-1.387-1-2.587-2.387-2.853-0.573-0.107-1.16-0.253-1.747-0.427-1.107-0.333-2.267-0.067-3.027 0.693-1.827 1.827-4.64 2-6.587 0.44-1.387-1.107-2.64-2.36-3.747-3.747-1.533-1.947-1.373-4.76 0.4-6.533 0.813-0.813 1.080-1.973 0.747-3.080-0.173-0.56-0.32-1.147-0.427-1.747-0.267-1.387-1.467-2.387-2.853-2.387h-4.48z">
+                            </path>
+                            <path
+                                d="M31.667 12h-2c0-5.333-4.333-9.667-9.667-9.667v-2c6.44 0 11.667 5.24 11.667 11.667z">
+                            </path>
+                            <path d="M26.333 12h-2c0-2.387-1.947-4.333-4.333-4.333v-2c3.493 0 6.333 2.84 6.333 6.333z">
+                            </path>
+                        </svg>
+
+                        <h1 class="font-bold text-[18px]">Call</h1>
+
+                        <div class="text-gray-600 text-[14px]">
+                            <p>Call us from 11am to 6pm ET.</p>
+                            <p>+91-866-237-8289</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-3 w-1/2 lg:px-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                            <title>email-footer</title>
+                            <path
+                                d="M29.453 11.96l-12-9.6c-0.853-0.68-2.053-0.68-2.92 0l-12 9.6c-0.56 0.44-0.88 1.107-0.88 1.827v14.027c0 1.28 1.053 2.333 2.333 2.333h24c1.28 0 2.333-1.053 2.333-2.333v-14.027c0.013-0.707-0.307-1.373-0.867-1.827zM15.787 3.933c0.067-0.053 0.133-0.080 0.213-0.080s0.147 0.027 0.213 0.067l11.533 9.227-11.427 7.107c-0.16 0.107-0.453 0.107-0.613 0l-11.44-7.107 11.52-9.213zM28 28.147h-24c-0.187 0-0.333-0.147-0.333-0.333v-12.68l10.973 6.827c0.413 0.253 0.88 0.373 1.36 0.373s0.96-0.12 1.36-0.373l10.973-6.827v12.68c0 0.187-0.147 0.333-0.333 0.333z">
+                            </path>
+                        </svg>
+
+                        <h1 class="font-bold text-[18px]">Email</h1>
+
+                        <div class="text-gray-600 text-[14px]">
+                            <p>Our response time is 1 to 3 business days.</p>
+                            <p>Send a Message</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 py-10">
+                    <h1 class="text-[28px] md:text-[30px]">Let’s keep in touch</h1>
+                    <p class="text-[14px] text-gray-600 pt-3 w-[80%] md:w-full">Get recommendations, tips, updates,
+                        promotions and
+                        more.
+                    </p>
+                    <div class="flex gap-2 py-5">
+                        <input
+                            class="input rounded-lg px-5 py-4 border-2 border-gray-300 focus:outline-none hover:border-gray-800 placeholder:text-[14px] placeholder-gray-400 transition-all duration-500 w-full"
+                            placeholder="Enter your email address" type="text" />
+                        <button
+                            class="bg-[#3449ca] hover:bg-blue-800 duration-300 px-6 md:px-12 py-2 text-white rounded-sm md:mr-16 text-[14px]">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flex flex-col-reverse md:flex-row pt-5 w-[95%] lg:w-[90%] mx-auto">
+
+                <div class="flex flex-col-reverse md:flex-col w-full md:w-1/2">
+                    <div class="flex justify-between w-full">
+                        <img class="w-32" src="images/logo.png" alt="">
+                        <div class="md:hidden ml-8 flex gap-1 items-center">
+                            <lord-icon src="https://cdn.lordicon.com/trkmlure.json" trigger="hover" stroke="bold"
+                                colors="primary:#545454,secondary:#545454" style="width:25px;height:25px"></lord-icon>
+                            <p>English/USD</p>
+                        </div>
+                    </div>
+                    <h1 class="hidden md:block text-[18px]">Best For Shopping</h1>
+                    <p class="hidden md:block text-[14px] text-gray-500 w-[38%] font-medium pt-3">Sed do eiusmod tempor
+                        incididuntut labore dolore magna.</p>
+
+                    <hr class="md:hidden my-3">
+                    <div class="flex justify-around w-full md:w-1/2 gap-5 pt-5 md:py-8">
+                        <a class="w-6 h-6" href="#" target="_blank">
+                            <span class="">
+                                <img src="svgs/twitter-svg.svg" alt="">
+                            </span>
+                        </a>
+
+                        <a class="w-6 h-6" href="#" target="_blank">
+                            <span class="">
+                                <img src="svgs/facebook-svg.svg" alt="">
+                            </span>
+                        </a>
+                        <a class="w-6 h-6" href="#" target="_blank">
+                            <span class="">
+                                <img src="svgs/youtube-svg.svg" alt="">
+                            </span>
+                        </a>
+                        <a class="w-6 h-6" href="#" target="_blank">
+                            <span class="">
+                                <img src="svgs/instagram-svg.svg" alt="">
+                            </span>
+                        </a>
+                        <a class="w-6 h-6" href="#" target="_blank">
+                            <span class="">
+                                <img src="svgs/whatsapp-svg.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <hr class="md:hidden mt-5">
+                </div>
+
+                <div class="flex flex-wrap md:flex-nowrap px-6 md:px-0 justify-between gap-8 md:gap-0 md:w-1/2">
+                    <div>
+                        <h1 class="mb-2 md:mb-5">Get to Know Us</h1>
+                        <div class="flex flex-col gap-1 md:gap-3">
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">About Us</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">News &
+                                Blog</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Careers</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Investors</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 class="mb-2 md:mb-5">Customer Service</h1>
+                        <div class="flex flex-col gap-1 md:gap-3">
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Help
+                                Center</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">FAQ’s</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit"
+                                href="#">Accessibility</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Feedback</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Size
+                                Guide</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Payment
+                                Method</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 class="mb-2 md:mb-5">Orders & Returns</h1>
+                        <div class="flex flex-col gap-1 md:gap-3">
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Track
+                                Order</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Shipping &
+                                Delivery</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Return &
+                                Exchange</a>
+                            <a class="text-gray-500 text-[14px] font-medium animateLine w-fit" href="#">Price Match
+                                Guarantee</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-5 w-[95%] lg:w-[90%] mx-auto ">
+                <div class="flex  md:justify-between">
+                    <div
+                        class="text-gray-600 text-[16px] md:text-[14px] font-medium flex flex-wrap justify-around gap-5 md:gap-7 px-6 md:px-0">
+                        <a href="#" class="animateLine">Privacy Policy</a>
+                        <a href="#" class="animateLine">Terms of Use</a>
+                        <a href="#" class="animateLine">Legal</a>
+                        <a href="#" class="animateLine">Site Map</a>
+                    </div>
+                    <div class="hidden md:block"><img src="images/footer-payment.png" alt=""></div>
+                </div>
+                <div class="my-8">
+                    <p class="w-fit mx-auto text-center">All Right Reserved with Apana Cart. Design and develop by LNG
+                        SOLUTION
+                    </p>
+                </div>
+            </section>
+        </footer>
+
+        <div class="md:hidden fixed bottom-0 bg-white h-[70px] w-full ">
+            <div class="shadow-[0_0_16px_0_rgb(0,0,0,0.16)] flex justify-around items-center h-full">
+
+                <a href="index.html" class="flex flex-col items-center cursor-pointer ">
+                    <img class="w-7 h-7" src="svgs/home-svg.svg" alt="">
+                    <p class="text-[12px] text-gray-900">Home</p>
+                </a>
+                <a href="categories.html" class="flex flex-col items-center cursor-pointer ">
+                    <img class="w-6 h-6" src="svgs/shop-svg.svg" alt="">
+                    <p class="text-[12px] text-gray-900">Shop</p>
+                </a>
+                <a href="cart.html" class="flex flex-col items-center cursor-pointer ">
+                    <img class="w-5 h-5" src="svgs/cart-shopping-svg.svg" alt="">
+                    <p class="text-[12px] text-gray-900">Cart</p>
+                </a>
+                <a href="wishlist.html" class="flex flex-col items-center cursor-pointer ">
+                    <img class="w-6 h-6" src="svgs/heart-icon.svg" alt="">
+                    <p class="text-[12px] text-gray-900">Wishlist</p>
+                </a>
+                <a href="#" class="flex flex-col items-center cursor-pointer ">
+                    <img class="w-5 h-5" src="svgs/account-user-svg.svg" alt="">
+                    <p class="text-[12px] text-gray-900">Account</p>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+
+</html>

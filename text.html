@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body class="p-0 m-0 w-full">
+
+    <style>
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+    </style>
+
+    <!-- right img -->
+    <div class="hidden md:flex flex-col items-center md:w-[65%] h-[35dvh] md:h-fit justify-around text-[#282c33] ">
+
+        <!-- img content -->
+        <div class="relative flex justify-between px-3 items-center pt-5 md:pt-14">
+
+            <!-- content1 -->
+            <div class="mySlides flex items-center justify-center rounded-lg bg-cover bg-center" style="background-image: url(images/heroImg/heroImg1.webp);">
+
+                <!-- imgcontent -->
+                <div class="flex flex-col justify-start md:gap-5">
+                    <p class="px-5 md:px-10 text-[12px] font-semibold uppercase">Electronics</p>
+                    <h1 class="px-5 md:px-10 md:text-[45px] font-semibold md:leading-10">Spring
+                        Deals</h1>
+                    <p class="px-5 md:px-10 w-[70%]">Spring into incredible deals on a selection of
+                        TVs, Smart
+                        screens, and so much more.</p>
+                    <button
+                        class="mx-10 w-fit bg-[#0b5052] hover:bg-[#0b2a2b] duration-300 px-8 py-3 text-gray-100 cursor-pointer rounded-lg text-[14px]">Shop
+                        Now</button>
+                </div>
+
+            </div>
+
+            <!-- content2 -->
+            <div class="mySlides relative flex justify-between h-fit rounded-lg bg-cover bg-center" style="background-image: url(images/heroImg/heroImg2.webp);">
+
+                <!-- imgcontent -->
+                <div class="flex-col flex justify-start md:gap-5">
+                    <p class="px-5 md:px-10 text-[12px] font-semibold uppercase">Electronics</p>
+                    <h1 class="px-5 md:px-10 md:text-[45px] font-semibold md:leading-10">Spring
+                        Deals</h1>
+                    <p class="px-5 md:px-10 w-[70%]">Spring into incredible deals on a selection of
+                        TVs, Smart
+                        screens, and so much more.</p>
+                    <button
+                        class="mx-10 w-fit bg-[#0b5052] hover:bg-[#0b2a2b] duration-300 px-8 py-3 text-gray-100 cursor-pointer rounded-lg text-[14px]">Shop
+                        Now</button>
+                </div>
+
+            </div>
+
+            <!-- content3 -->
+            <div class="mySlides relative flex justify-between h-fit rounded-lg bg-cover bg-center" style="background-image: url(images/heroImg/heroImg3.webp);">
+
+                <!-- imgcontent -->
+                <div class="flex-col flex justify-start md:gap-5">
+                    <p class="px-5 md:px-10 text-[12px] font-semibold uppercase">Electronics</p>
+                    <h1 class="px-5 md:px-10 md:text-[45px] font-semibold md:leading-10">Spring
+                        Deals</h1>
+                    <p class="px-5 md:px-10 w-[70%]">Spring into incredible deals on a selection of
+                        TVs, Smart
+                        screens, and so much more.</p>
+                    <button
+                        class="mx-10 w-fit bg-[#0b5052] hover:bg-[#0b2a2b] duration-300 px-8 py-3 text-gray-100 cursor-pointer rounded-lg text-[14px]">Shop
+                        Now</button>
+                </div>
+
+            </div>
+
+
+            <!-- prev -->
+            <div onclick="plusSlides(-1)"
+                class="absolute hidden md:block bg-white rounded-lg py-4 px-1 shadow-md cursor-pointer">
+                <img class="w-6 h-6" src="svgs/left-arrow-hero--svg.svg" alt="">
+            </div>
+            <!-- next -->
+            <div onclick="plusSlides(1)"
+                class="absolute right-0 hidden md:block bg-white rounded-lg py-4 px-1 shadow-md cursor-pointer">
+                <img class="w-6 h-6" src="svgs/right-arrow-hero-svg.svg" alt="">
+            </div>
+
+            <!-- dots -->
+            <div class="absolute mx-auto w-full bottom-0">
+                <ul class="flex justify-center gap-3">
+                    <li onclick="currentSlide(1)" class="dot  bg-gray-300 h-2 w-2 rounded-full cursor-pointer"></li>
+                    <li onclick="currentSlide(2)" class="dot  bg-gray-300 h-2 w-2 rounded-full cursor-pointer"></li>
+                    <li onclick="currentSlide(3)" class="dot  bg-gray-300 h-2 w-2 rounded-full cursor-pointer"></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
